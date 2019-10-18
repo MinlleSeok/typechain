@@ -4,5 +4,10 @@
   "description": "Learning TypeScript making BlockChain",
   "main": "index.js",
   "repository": "https://github.com/MinlleSeok/typechain.git",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+
+  }
 }
